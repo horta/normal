@@ -10,3 +10,7 @@ static double cdf(double x);
  */
 static double logcdf(double x);
 ```
+
+# How to use?
+
+Include `normal.h` in your C/C++ project.
