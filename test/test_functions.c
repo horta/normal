@@ -1,6 +1,5 @@
 #include "normal.h"
 #include <stdio.h>
-#include <malloc.h>
 #include <stdlib.h>
 
 double* read_file(char *filename)
