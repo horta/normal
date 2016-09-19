@@ -1,0 +1,18 @@
+Start testing: Sep 19 17:53 BST
+----------------------------------------------------------
+1/1 Testing: TestFunctions
+1/1 Test: TestFunctions
+Command: "/Users/horta/workspace/normal/build/test/test_functions"
+Directory: /Users/horta/workspace/normal/build
+"TestFunctions" start time: Sep 19 17:53 BST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"TestFunctions" end time: Sep 19 17:53 BST
+"TestFunctions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 19 17:53 BST

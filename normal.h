@@ -5,10 +5,15 @@
 #include <float.h>
 #include <math.h>
 
-// interface
+/* Cumulative distribution function of the Normal distribution.
+ */
 static double cdf(double x);
+/* Log of the cumulative distribution function of the Normal distribution.
+ */
 static double logcdf(double x);
 
+
+// Bellow this point is implementation.
 
 #define GSL_ROOT6_DBL_EPSILON  2.4607833005759251e-03
 #define M_SQRTPI   1.77245385090551602729816748334      /* sqrt(pi) */
