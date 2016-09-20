@@ -40,5 +40,11 @@ int main()
   free(x);
   free(logcdf_vals);
 
+  if (fabs(logpdf(0) + 0.918938533204672669540968854562) > 1e-13) return 1;
+
+  if (fabs(logpdf(55.1) + 1518.9239385332048186683095991611) > 1e-13) return 1;
+
+  if (fabs(logpdf(-55.1) + 1518.923938533204818668309599161) > 1e-13) return 1;
+
   return 0;
 }
